@@ -1,0 +1,422 @@
+@font-face {
+    font-family: nb;
+    src: url(NBInternationalProBoo.ttf);
+}
+
+@font-face {
+    font-family: rejoy;
+    src: url(Rejouice-Headline.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: NimbusSanL;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+}
+
+#nav {
+    width: 100%;
+    padding: 3vw 9vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+#nav a {
+    text-decoration: none;
+    font-size: 1.3vw;
+    text-transform: capitalize;
+    color: black;
+    font-family: NimbusSanL;
+    font-family: rejoy;
+    font-weight: 100;
+
+}
+
+.nleft {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    color: black;
+}
+
+#nav .center_nav {
+    /* font-size: 2.3vw; */
+    font-weight: 100;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    font-family: rejoy;
+    font-weight: 100;
+
+
+
+}
+#nav .center_nav a{
+    font-size: 4vw;
+}
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-top: 14vw;
+    padding: 0 9vw;
+    /* background-color: crimson; */
+
+}
+
+#sustain {
+    width: 12vw;
+}
+
+#sustain p {
+    font-size: 14px;
+    margin: 10px 0;
+    font-weight: 800;
+    opacity: .5;
+    text-transform: capitalize;
+    font-family: rejoy;
+    font-weight: 100;
+
+
+}
+
+#sustain h2 {
+    text-transform: capitalize;
+    letter-spacing: .1vw;
+    font-family: rejoy;
+    font-weight: 100;
+
+
+}
+
+#sustain #susimgwrapper {
+    width: 100%;
+    height: 18vw;
+    /* background-color: crimson; */
+    position: relative;
+}
+
+#sustain #susimgwrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+
+}
+
+#epimg {
+    width: 26vw;
+    height: 80vh;
+    /* background-color: crimson; */
+    position: relative;
+    margin-top: 2vw;
+}
+
+#epimg h1 {
+    font-size: 5.3vw;
+    letter-spacing: -.4vw;
+    font-weight: 100;
+    /* text-transform: capitalize; */
+    position: relative;
+    /* font-family: rejoy; */
+
+}
+
+#epimg .heading {
+    position: absolute;
+    top: -26%;
+    left: -12%;
+}
+
+#epimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#epimg h2 {
+    padding-top: 1vw;
+    font-weight: 100;
+    font-size: 1.3vw;
+    font-family: rejoy;
+    opacity: .5;
+
+
+
+}
+
+#circle {
+    width: 2vw;
+    height: 2vw;
+    /* background-color: crimson; */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+#visit {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+
+}
+
+#visit h2 {
+    color: #676565;
+    text-transform: capitalize;
+    font-weight: 100;
+    font-family: rejoy;
+
+}
+
+#page2 {
+    width: 100%;
+    /* height: 100vh; */
+    /* background-color: #676565; */
+    margin-top: 9vw;
+    padding: 3vw 9vw;
+    position: relative;
+    /* display: flex; */
+    /* justify-content: space-between; */
+
+}
+
+#page2 h3 {
+    text-transform: uppercase;
+    color: #141414;
+    font-family: rejoy;
+    font-weight: 500;
+    /* opacity: .9; */
+
+
+
+}
+
+#page2 h1 {
+    font-size: 30px;
+    text-align: right;
+    /* word-spacing: 1vw; */
+    line-height: 60px;
+    font-weight: 100;
+    padding-top: 4vw;
+    color: #323030;
+    font-family: rejoy;
+}
+
+#page2 span {
+    display: inline-block;
+    width: 80px;
+    height: 45px;
+    background-color: aquamarine;
+    border-radius: 50px;
+    /* position: absolute; */
+    margin-bottom: -10px;
+    overflow: hidden;
+
+
+}
+
+#page2 span img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#page3 {
+    width: 80%;
+    /* height: 100vh; */
+    /* background-color: #323030; */
+    margin-top: 8vw;
+    padding: 0 9vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15%;
+    align-items: flex-start;
+
+
+}
+
+.neryg {
+    width: 18vw;
+    height: 55vh;
+    /* background-color: #d22828; */
+
+}
+
+.neryg h1 {
+    font-weight: 100;
+    padding-top: 1vw;
+    /* color: #323030; */
+    font-family: rejoy;
+    text-align: left;
+
+}
+
+.neryg h3 {
+    font-weight: 100;
+    padding-top: 1vw;
+    color: #323030;
+    font-family: rejoy;
+    text-align: left;
+    opacity: .9;
+
+
+}
+
+.neryg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.mony {
+    width: 23vw;
+    height: 75vh;
+    /* background-color: #d22828; */
+    text-align: right;
+
+}
+
+.mony img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.mony h1 {
+    font-weight: 100;
+    padding-top: 1vw;
+    color: #323030;
+    font-family: rejoy;
+}
+
+.mony h3 {
+    font-weight: 100;
+    padding-top: 1vw;
+    color: #323030;
+    font-family: rejoy;
+    opacity: .9;
+
+}
+
+#page4 {
+    width: 100%;
+    height: 100vh;
+    /* background-color: #d22828; */
+    margin-top: 10vw;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.left {
+    width: 66%;
+    height: 80%;
+    /* background-color: aquamarine; */
+    position: relative;
+}
+
+.left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 70%;
+}
+
+.right {
+    margin-left: 4vw;
+    position: relative;
+}
+
+.right h1 {
+    font-weight: 100;
+    color: #323030;
+    font-family: rejoy;
+}
+
+.right h3 {
+    font-weight: 100;
+    padding-top: 1vw;
+    color: #0b0b0b;
+    font-family: rejoy;
+    opacity: .9;
+
+}
+
+#page5 {
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    /* background-color: #323030; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#page5 video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    object-position: center;
+    opacity: 1;
+}
+
+#ftext {
+    position: relative;
+    z-index: 999;
+    text-align: center;
+    background-color: white;
+    padding: 1vw 2vw;
+    border-radius: 10px;
+
+}
+
+#ftext h1 {
+    font-weight: 100;
+    padding-top: 1vw;
+    color: #323030;
+    font-family: rejoy;
+}
+
+#ftext button {
+    padding: 0.8vw 1.7vw;
+    border-radius: 50px;
+    border: none;
+    font-weight: 100;
+    padding-top: 1vw;
+    color: #323030;
+    font-family: rejoy;
+    font-weight: 1.2vw
+}
