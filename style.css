@@ -66,7 +66,8 @@ body {
 
 
 }
-#nav .center_nav a{
+
+#nav .center_nav a {
     font-size: 4vw;
 }
 
@@ -334,21 +335,35 @@ body {
     /* justify-content: space-between; */
 }
 
-.left {
-    width: 66%;
-    height: 80%;
-    /* background-color: aquamarine; */
-    position: relative;
+
+.back {
+    width: 100%;
+    height: 100vh;
+
 }
 
-.left img {
+.back img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: 0 70%;
 }
 
-.right {
+/* .left {
+    width: 66%;
+    height: 80%;
+    /* background-color: aquamarine; */
+/* position: relative; */
+/* } */
+
+/* .left img {
+    /* width: 100%; */
+/* height: 100%;
+    object-fit: cover; */
+/* object-position: 0 70%; */
+*/
+
+/* } */
+*/ .right {
     margin-left: 4vw;
     position: relative;
 }
@@ -378,6 +393,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    /* margin-top: 1vw; */
 
 }
 
@@ -391,6 +407,7 @@ body {
     object-fit: cover;
     object-position: center;
     opacity: 1;
+    margin-top: 5vw;
 }
 
 #ftext {
@@ -419,4 +436,101 @@ body {
     color: #323030;
     font-family: rejoy;
     font-weight: 1.2vw
+}
+
+
+
+.baner {
+    width: 100%;
+    margin-top: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4vw;
+}
+
+.bimg {
+    width: 70%;
+    height: 80vh;
+    /* background-color: red; */
+}
+
+.bimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0% 70%;
+}
+
+.btext {
+    width: 35%;
+    margin-left: 44px;
+}
+
+.btext h1 {
+    font-size: 2.9vw;
+    font-weight: 400;
+    letter-spacing: -.15vw;
+    line-height: 1;
+    font-family: rejoy;
+}
+
+.btext p {
+    margin-top: 20px;
+    width: 60%;
+    font-size: 1vw;
+    font-family: rejoy;
+
+}
+
+#loader {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    transition: all ease 0.5s;
+}
+
+#loader h1 {
+    color: transparent;
+    font-size: 3vw;
+    background: linear-gradient(to right, #FEAB8D,orange,green,white);
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    position: absolute;
+    opacity: 0;
+    font-family: rejoy;
+    animation-name: load;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+}
+
+#loader h1:nth-child(2) {
+    animation-delay: 2s;
+}
+
+
+
+@keyframes load {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
